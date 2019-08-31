@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Broker</h1>
+    <p>Bitcoin simulated price:</p>
+    <div id="status"></div>
+</div>
+
+<script src="~/js/signalr.js"></script>
+<script src="~/js/broker.js"></script>
